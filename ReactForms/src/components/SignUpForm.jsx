@@ -1,8 +1,13 @@
 import React from 'react'
+import { useState } from 'react'
+
+const[]=useState();
+const[]=useState();
+const[]=useState();
 
 const SignUpForm = () => {
   return (
-    <div>Sign Up!</div>
+    <h2>Sign Up!</h2>
   )
 }
 
