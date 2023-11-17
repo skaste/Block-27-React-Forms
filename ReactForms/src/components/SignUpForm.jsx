@@ -1,9 +1,9 @@
 import React from 'react'
 import { useState } from 'react'
 
-const[]=useState();
-const[]=useState();
-const[]=useState();
+// const[username , setUserName]=useState("");
+// const[password , setPassword]=useState("");
+// const[error , setError]=useState(null);
 
 const SignUpForm = () => {
   return (
