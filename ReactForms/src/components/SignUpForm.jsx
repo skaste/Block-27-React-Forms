@@ -9,6 +9,12 @@ const SignUpForm = () => {
   async function handleSubmit(event) {
     event.preventDefault();
     console.log("This is a Test!");
+
+    try{
+
+    }catch (error){
+      setError(error.message);
+    }
   }
 
   return (
