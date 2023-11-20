@@ -1,8 +1,13 @@
 import React from 'react'
 
-const Authenticate = () => {
+const Authenticate = ({token}) => {
   return (
-    <h2>Authenticate</h2>
+   <>
+      <h2>Authenticate</h2>
+      {
+        token
+      }
+    </>
   )
 }
 
