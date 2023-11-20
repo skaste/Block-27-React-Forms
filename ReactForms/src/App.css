@@ -16,7 +16,14 @@ input{
   padding:5px;
   border-radius: 5px;
 }
-
+#signUpButton{
+  background-color: aquamarine;
+  color:peru;
+}
+#authButton{
+  background-color: aquamarine;
+  color:blueviolet;
+}
 
 
 

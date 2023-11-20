@@ -49,7 +49,7 @@ const SignUpForm = ({setToken}) => {
             onChange={(e) => setPassword(e.target.value)}
           ></input>
         </label>
-        <button>Submit!</button>
+        <button id="signUpButton">Submit!</button>
       </form>
     </>
   );
